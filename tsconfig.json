@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+	"jsx": "react",
+	"module": "commonjs",
+	"noImplicitAny": true,
+	"outDir": "./build",
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false
+  },
+  
+  "include": [
+	"src/index.tsx"
+  ]
+}
